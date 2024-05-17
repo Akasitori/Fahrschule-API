@@ -1,8 +1,6 @@
-# Introduction 
-Fahrschule API ist ein Projekt für die Schule (LF12a) durch Dominik und Behnoush
+# Intro
+Die Fahrschulen API (und deren UIs) ist ein Schul Projekt, welches von Behnoush und Dominik
+für das Schulfach LF12a erstellt worden ist. 
 
-# Getting Started
-
-# Build and Test
-
-# Contribute
+# How to use
+-> Folge den Anweisungen der "InstallationsGuideFahrschule" Datei
