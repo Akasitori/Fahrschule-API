@@ -1,0 +1,28 @@
+@host=https://localhost:7148
+@token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyOTJmMGE4ZS1mM2IwLTRkZTctYjllYi01M2NiN2U2ZDg5ODkiLCJnaXZlbl9uYW1lIjoiRG9taW5payIsImZhbWlseV9uYW1lIjoiU2Nob2VuaGVpdCIsImp0aSI6ImUzODE0NDQ4LTczNzAtNDU5ZC05YjZlLWVhN2M1ZjIyZGVmYiIsImV4cCI6MTY5OTM2OTYwNSwiaXNzIjoiQlRfRFNfRmFocnNjaHVsZSIsImF1ZCI6IkJUX0RTX0ZhaHJzY2h1bGUifQ.WOJV9Sd5DF3_AsKMpVAWDEIzmMWgMuxV8kphAO9INPE
+
+POST {{host}}/Schueler/CreateSchueler
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "vorname": "Dominik",
+  "nachname": "Schoenheit",
+  "geschlecht" : 0,
+  "geburtsdatum": "2023-11-06T15:19:10.799Z",
+  "adresse": {
+    "strasse": "Umfahrungsstrasse",
+    "hausNr": "47",
+    "stadt": "Schmarburch",
+    "plz": "91169420"
+  },
+  "kontaktdaten": {
+    "tel": "01520911420",
+    "email": "d.schoenheit@kekw.de"
+  },
+  "datumDerAnmeldung": "2023-11-06T15:19:10.799Z",
+  "status": 0,
+  "führerscheinklasse": "1",
+  "getriebeTyp": 0,
+  "lehrerGuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+}
